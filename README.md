@@ -1,17 +1,20 @@
-# lessonGit
+# My first exam on the topic HTML/CSS
 
-## Homework for the Git_GitHub lesson
+**Goals**
 
-Homework trial
-
-1. Watch video lessons from 1 to 5 and be sure to repeat all the steps after the author!
-2. Watch video lessons from 6 to 7, familiarize yourself, repeat the steps after the author (optional). Decide for yourself which tool you will use to work with Git.
-3. Create a repository in your GitHub account and upload any of your projects there. Pour in stages with at least 3 commits in accordance with the requirements.
-
----
-
-**_Results of the task_**
+1. Demonstrate the skills and knowledge that were acquired while studying layout.
+2. As well as performing adaptive website layout for certain screen resolutions.
+3. Skills to work with HTML/CSS.
 
 - [x] Goal 1
 - [x] Goal 2
 - [x] Goal 3
+
+---
+
+## Short description
+
+This project was written exclusively in HTML markup and CSS properties.
+The "styles" folder contains all the properties specified for the blocks.
+The "index" document contains all the markup.
+The "images" folder contains "png." files, as well as a separate folder with "svg." files.
