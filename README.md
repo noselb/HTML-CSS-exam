@@ -4,7 +4,7 @@
 
 1. Demonstrate the skills and knowledge that were acquired while studying layout.
 2. As well as performing adaptive website layout for certain screen resolutions.
-3. Skills to work with HTML/CSS.
+3. Skills to work with HTML/CSS
 
 - [x] Goal 1
 - [x] Goal 2
