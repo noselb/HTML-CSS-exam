@@ -1,0 +1,62 @@
+.header {
+  padding: 20px 0;
+}
+.navbar {
+  display: flex;
+}
+.link-list {
+  display: flex;
+  width: 664px;
+  height: 72px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.link {
+  padding-right: 20px;
+}
+.link-list a {
+  color: var(--color-blue);
+  font-size: 19px;
+  font-weight: 400;
+  font-family: var(--font-family-Roboto);
+}
+.link-list .link-list__home {
+  color: var(--color-green);
+}
+.navbar-basket {
+  margin-left: 398px;
+  display: flex;
+  padding: 7px 15px;
+  width: 159px;
+  height: 70px;
+  border-radius: 33px;
+  border: 1px solid #d4d4d4;
+}
+.navbar-basket__circle {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  border-radius: 100px;
+  background-color: var(--color-blue);
+}
+.navbar-basket__circle:hover {
+  background-color: var(--color-green);
+  cursor: pointer;
+}
+.basket-icon {
+  width: 28px;
+  height: 24px;
+  position: absolute;
+  top: 18px;
+  left: 13px;
+  background-image: url(../images/svg/basket.svg);
+  background-repeat: no-repeat;
+}
+.navbar-basket__text {
+  width: 73px;
+  font-size: 15px;
+  padding: 20px 20px 20px 10px;
+  color: var(--color-blue);
+  font-family: var(--font-family-Roboto);
+  font-weight: 400;
+}

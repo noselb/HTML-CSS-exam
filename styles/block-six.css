@@ -1,0 +1,35 @@
+.block-six{
+    background-color: var(--color-blue);
+    padding: 140px 0;
+}
+.block-six-header{
+    position: relative;
+    padding-bottom: 30px;
+}
+.block-six-header__text{
+    color: var(--color-white);
+}
+.block-six-header__button{
+    width: 267px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    text-align: end;
+
+}
+.circle_change_size{
+    right: 2px;
+    top: 26px;
+    width: 30px;
+    height: 30px;
+}
+.vector_change_size{
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 7px;
+}
+.block-six-main{
+    display: flex;
+    justify-content: space-between;
+}

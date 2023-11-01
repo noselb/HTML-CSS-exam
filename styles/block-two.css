@@ -1,0 +1,38 @@
+.block-two {
+  padding: 140px 0;
+}
+.fruits-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.fresh-fruits {
+  padding: 105px 484px 208px 55px;
+  width: 665px;
+  height: 378px;
+  background-image: url(../images/fruits.png);
+}
+.fresh-fruits__title_color_white {
+  width: 126px;
+  color: var(--color-white);
+  line-height: 64.8px;
+}
+.fresh-fruits__text {
+  width: 219px;
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+}
+.offer {
+  background-image: url(../images/offer.png);
+  padding: 105px 484px 208px 55px;
+  width: 665px;
+  height: 378px;
+}
+.offer__text {
+  width: 264px;
+  color: var(--color-blue);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+}

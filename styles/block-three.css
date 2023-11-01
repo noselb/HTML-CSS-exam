@@ -1,0 +1,54 @@
+.block-three {
+  padding: 177px 0 187px 0px;
+  background: #f9f8f8;
+}
+.about-us-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.orange-img {
+  width: 675px;
+  height: 642px;
+}
+.about-us {
+  width: 675px;
+  height: 736px;
+}
+.about-us-header {
+  padding-bottom: 25px;
+}
+.about-us-header-paragraph {
+  padding-top: 22px;
+}
+.about-us-main {
+  padding-top: 30px;
+}
+.about-us-main__elem1 {
+  padding-bottom: 30px;
+}
+.leaves-icon,
+.post-icon {
+  float: left;
+  padding-right: 20px;
+  width: 50px;
+  height: 100px;
+}
+.shop-button {
+  margin-top: 70px;
+  display: inline-block;
+  position: relative;
+}
+.shop-button__button {
+  width: 199px;
+  height: 82px;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  cursor: pointer;
+  border-radius: 16px;
+  border: none;
+  font-size: 19px;
+  font-family: var(--font-family-Roboto);
+}
+.shop-button__button:hover {
+  background-color: var(--color-green);
+}

@@ -3,15 +3,465 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Exam</title>
 </head>
 <body>
-   <h1>World</h1>
-    <p>It's me</p>
-    <p>How are you?</p>
-    <p>What happen</p>
-    <h2>Wide</h2>
-    
-    
+    <div>
+        <div class="container">
+            <header class="header">
+                <div class="inner-container">                       
+                    <nav class="navbar">
+                        <img class="navbar__icon" src="images/svg/navbarIcon.svg" alt="icon">
+                        <input type="checkbox" id="burger">
+                        <label for="burger">≡</label>                     
+                            <ul class="link-list">
+                                <li class="link"><a href="#" class="link-list__home">Home</a></li>
+                                <li class="link"><a href="#">About Us</a></li>
+                                <li class="link"><a href="#">Shop</a></li>
+                                <li class="link"><a href="#">Pages</a></li>
+                                <li class="link"><a href="#">Contact Us</a></li>
+                            </ul>
+                            <div class="navbar-basket">
+                                <div class="navbar-basket__circle">                            
+                                    <div class="basket-icon"></div>
+                                </div>
+                                <span class="navbar-basket__text">Cart 0</span>
+                            </div>                                                
+                    </nav>
+                </div>
+            </header>
+            <main>              
+                <div class="block-one">
+                    <div class="inner-container">
+                        <div class="block-one-description">
+                            <h3 class="block-one-description__title">Made with nature</h3>
+                            <h2 class="block-one-description__text">Welcome to the world of nature and organic.</h2>
+                                <div class="block-one-button">
+                                    <div class="circle">
+                                        <div class="vector"></div>
+                                    </div>
+                                    <input type="button" value="Explore Now" class="button">
+                                </div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="block-two">
+                    <div class="inner-container">
+                        <div class="fruits-wrapper">
+                            <div class="fresh-fruits">
+                                <h3 class="fresh-fruits__title fresh-fruits__title_color_white">Natural!!</h3>
+                                <h2 class="fresh-fruits__text">Get Garden</h2>
+                                <h2 class="fresh-fruits__text">Fresh Fruits</h2>
+                            </div>
+                            <div class="offer">
+                                <h3 class="offer__title">Offer!!</h3>
+                                <h2 class="offer__text">Get 10% off</h2>
+                                <h2 class="offer__text">on Vegetables</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-three">
+                    <div class="inner-container">
+                        <div class="about-us-wrapper">
+                            <img src="images/orange.png" class="orange-img" alt="orange">
+                            <div class="about-us">
+                                <div class="about-us-header">            
+                                        <h3 class="about-us-header-title">About Us</h3>
+                                        <h4 class="about-us-header-text">We Believe in Organic</h4>
+                                        <h4 class="about-us-header-text">Foods For Strong Health</h4>
+                                        <p class="about-us-header-paragraph">Welcome to the world of natural and organic. 
+                                            Here you can discover the bounty of nature. We have grown on the principles of health, and care. 
+                                            We aim to give our customers a healthy chemical-free meal for perfect nutrition.</p>
+                                </div>
+                                <div class="about-us-main">
+                                    <div class="about-us-main__elem1">
+                                        <img src="images/svg/leaves.svg" class="leaves-icon" alt="leaves">
+                                        <h5 class="about-us-main-title">Organic Foods Only</h5>
+                                        <p class="about-us-main-paragraph">The Product that you ordered will be verified that we have or not
+                                                    if have we will start to move on with the next step.</p>
+                                    </div>               
+                                    <div class="about-us-main__elem2">
+                                        <img src="images/svg/post.svg" class="post-icon" alt="post">            
+                                        <h5 class="about-us-main-title">Quality Standards</h5>
+                                        <p class="about-us-main-paragraph">Once your product is packed it will be delivered to your nearby
+                                                    locality you can directly visit the to buy the product.</p>
+                                    </div>
+                                </div>
+                                <div class="shop-button">
+                                    <div class="circle">
+                                        <div class="vector"></div>
+                                    </div>                           
+                                    <input type="button" value="Shop Now" class="shop-button__button">
+                                </div>                                                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-four">
+                    <div class="inner-container">
+                        <div class="block-four-header">
+                            <h3>Organic</h3>
+                            <h4>Our Products</h4>
+                        </div>
+                        <div class="vegetables">
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/brocoli.png" class="products-img" alt="brocoli">
+                                    <p class="products-name">Calabrese Broccoli</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 25.00 USD</p>
+                                        <p class="products-new-price">$ 21.00 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/corn.png" class="products-img" alt="corn">
+                                    <p class="products-name">Fresh Corn</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 21.23 USD</p>
+                                        <p class="products-new-price">$ 18.00 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/fistic.png" class="products-img" alt="fistic">
+                                    <p class="products-name">Dried Pistachio</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 61.00 USD</p>
+                                        <p class="products-new-price">$ 48.00 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/tomatoes.png" class="products-img" alt="tomatoes">
+                                    <p class="products-name">Vegan Red Tomato</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 14.00 USD</p>
+                                        <p class="products-new-price">$ 9.37 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/almonds.png" class="products-img" alt="almonds">
+                                    <p class="products-name">Organic Almonds</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 21.00 USD</p>
+                                        <p class="products-new-price">$ 18.00 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/nut.png" class="products-img" alt="nut">
+                                    <p class="products-name">Brown Hazelnut</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 43.00 USD</p>
+                                        <p class="products-new-price">$ 34.00 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-five">
+                    <div class="review-header">
+                        <h3 class="review-header__title">Testimonial</h3>
+                        <h4 class="review-header__text">What Our Customer Saying?</h4>
+                    </div>
+                    <div class="review-main">
+                        <div class="review-main__wrapper">
+                            <img class="review-main__img" src="images/sara.png" alt="sara">
+                            <img class="review-main__stars" src="images/stars.png" alt="stars">
+                            <p class="review-main__opinion">The quality of organic produce is extremely high, 
+                                the service is second to none and the taste of the 
+                                food takes me back to my childhood when we were growing our own.</p>
+                            <h4 class="review-main__name">Sara Taylor</h4>
+                            <p class="review-main__consumer">Consumer</p>
+                        </div>
+                    </div>
+                    <div class="review-footer">
+                        <div class="review-wrapper">
+                            <div class="statistic-elem">
+                                <h4 class="statistic-elem-amount">100%</h4>
+                                <p class="statistic-elem-text">Organic</p>
+                            </div>
+                            <div class="statistic-elem">
+                                <h4 class="statistic-elem-amount">285</h4>
+                                <p class="statistic-elem-text">Active Product</p>
+                            </div>
+                            <div class="statistic-elem">
+                                <h4 class="statistic-elem-amount">385+</h4>
+                                <p class="statistic-elem-text">Organic Orchads</p>
+                            </div>
+                            <div class="statistic-elem">
+                                <h4 class="statistic-elem-amount">25+</h4>
+                                <p class="statistic-elem-text">Years of Farming</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-six">
+                    <div class="inner-container">
+                        <div class="block-six-header">
+                            <h3 class="block-six-header__title">Offer Products</h3>
+                            <h4 class="block-six-header__text">We Offer Organic for You</h4>
+                            <div class="block-six-header__button">
+                                <div class="circle circle_change_size">
+                                    <div class="vector vector_change_size"></div>
+                                </div>
+                                <input type="button" value="View All Products" class="button">
+                            </div>
+                        </div>
+                        <div class="block-six-main">
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/tomatoes.png" class="products-img" alt="tomatoes">
+                                    <p class="products-name">Vegan Red Tomato</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 14.00 USD</p>
+                                        <p class="products-new-price">$ 9.37 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/fistic.png" class="products-img" alt="fistic">
+                                    <p class="products-name">Dried Pistachio</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 61.00 USD</p>
+                                        <p class="products-new-price">$ 48.00 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="inner-container-products">
+                                    <p class="products-description">Vegetable</p>
+                                    <img src="images/corn.png" class="products-img" alt="corn">
+                                    <p class="products-name">Fresh Corn</p>
+                                    <div class="products-price">
+                                        <p class="products-old-price">$ 21.23 USD</p>
+                                        <p class="products-new-price">$ 18.00 USD</p>
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-5" name="rating" value="5">
+                                            <label for="star-5" title="Rate «5»"></label>	
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Rate «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Rate «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Rate «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Rate «1»"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-seven">
+                    <img src="images/fields.png" class="img-fileds" alt="fields">           
+                    <div class="block-seven-description">
+                        <div class="block-seven-description__head">
+                            <h3>Eco Friendly</h3>
+                            <h4>From Our Farm To Your Home.</h4>
+                        </div>
+                        <h5 class="block-seven-description-subtitle">Choose Your Products</h5>
+                        <p class="block-seven-description-text">
+                            In our listing, we have several collections of organic products. 
+                            This is the place where you need to choose the product you want.</p>
+                        <h5 class="block-seven-description-subtitle">Farmers will produce it</h5>
+                        <p class="block-seven-description-text">
+                            The Product that you ordered will be verified that we have or not if have we will 
+                            start to move on with the next step.</p>
+                        <h5 class="block-seven-description-subtitle">We Can Delivery too</h5>
+                        <p class="block-seven-description-text">
+                            If you are not comfortable going to the nearby market
+                            place we also will deliver your product to your doorstep.</p>
+                    </div>                                    
+                </div>
+                <div class="block-eight">
+                    <div class="block-eight__elem1">
+                        <input type="button" value="Fruit Juice" class="block-eight-button">
+                    </div>
+                    <div class="block-eight__elem2">
+                        <input type="button" value="Organic Food" class="block-eight-button">
+                    </div>
+                    <div class="block-eight__elem3">
+                        <input type="button" value="Nuts Cookies" class="block-eight-button">
+                    </div>
+
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="inner-container">
+                    <div class="footer-top">
+                        <div class="subscription">
+                            <h4 class="subscription__title">Subscribe Our Newsletter</h4>
+                            <div class="subscription-form">
+                                <input type="email" name="email" placeholder="Enter your email address" class="subscription-form__email">
+                                <div class="footer-button">
+                                    <input type="button" name="button" value="Subscribe" class="button button_change_color">
+                                    <div class="circle">
+                                        <div class="vector"></div>                                                                           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-main">
+                        <div class="footer-main__elem1">
+                            <h2 class="elem-title">Contact Us</h2>
+                            <h6 class="elem1-subtitle">Email</h6>
+                            <p>needhelp@organick.com</p>
+                            <h6 class="elem1-subtitle">Phone</h6>
+                            <p>123 (1254) 1452</p>
+                            <h6 class="elem1-subtitle">Address</h6>
+                            <p>88 Road, Brooklyn Street, USA</p>
+                        </div>
+                        <div class="footer-main__elem2">
+                            <img src="images/svg/navbarIcon.svg" alt="icon">
+                            <p class="elem2-text">We are a popular and farming company aspiring to be a leader in the Organic food industry.</p>
+                            <div class="network">
+                                <div class="network-social">
+                                    <a href="#"><img src="images/svg/facebook.svg" alt="facebook"></a>
+                                </div>
+                                <div class="network-social">
+                                    <a href="#"><img src="images/svg/twitter.svg" alt="twitter"></a>
+                                </div>
+                                <div class="network-social">
+                                    <a href="#"><img src="images/svg/instagram.svg" alt="instagram"></a>
+                                </div>
+                                <div class="network-social">
+                                    <a href="#"><img src="images/svg/mail.svg" alt="mail"></a>  
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="footer-main__elem3">
+                            <h2 class="elem-title">Utility Pages</h2>
+                            <a href="#"><p>Style Guide</p></a>
+                            <a href="#"><p>Protected</p></a>
+                            <a href="#"><p>Page Not Found</p></a>
+                            <a href="#"><p>Changelog</p></a>
+                            <a href="#"><p>Licenses</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <img src="images/map.png" alt="map" class="footer-bottom__img">
+                </div>
+            </footer>
+        </div>
+    </div>   
 </body>
 </html>

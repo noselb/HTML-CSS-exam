@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf);
+    }
+@font-face {
+        font-family: Roboto; 
+        src: url(../fonts/Roboto.ttf);
+    }
+@font-face {
+    font-family: Yellowtail-Regular;
+    src: url(../fonts/Yellowtail-Regular.ttf);
+}
+:root{
+    --color-green: #7EB693;
+    --color-yellow: #EFD372;;
+    --color-grey: #525C60;
+    --color-blue: #274C5B;
+    --color-white: #FFF;
+
+    --font-family-OpenSans: OpenSans, Arial, sans-serif;
+    --font-family-Roboto: Roboto, Times, serif;
+    --font-family-Yellowtail-Regular: Yellowtail-Regular, Arial, serif;
+
+    }
+    

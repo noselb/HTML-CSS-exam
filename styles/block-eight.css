@@ -1,0 +1,51 @@
+.block-eight{
+    background-color: #EFF6F1;
+    padding: 140px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.block-eight__elem1{
+    background-image: url(../images/fruit-juice.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-eight__elem2{
+    background-image: url(../images/organic-food.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-eight__elem3{
+    background-image: url(../images/nuts-cocies.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-eight-button{
+    width: 300px;
+    height: 95px;
+    border-radius: 20px;
+    background:var(--color-white);
+    color:var(--color-blue);
+    font-weight: 700;
+    font-size: 25px;
+    font-family:var(--font-family-Roboto);
+    border: none;
+    cursor: pointer;
+}
+.block-eight-button:hover{
+    background-color: var(--color-green);
+}

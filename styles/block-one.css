@@ -1,0 +1,65 @@
+.block-one{
+position: relative;
+height: 913px;
+background-image: url(../images/welcome.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.block-one-description{
+width: 496px;
+position: absolute;
+top: 220px;
+}
+.block-one-description__title{
+color:var(--color-green);
+font-size: 36px;
+font-weight: 400;
+}
+.block-one-description__text{
+margin-top: 14px;
+margin-bottom: 30px;    
+color:var(--color-blue);
+font-size: 70px;
+font-weight: 700;
+line-height: 84px;   
+}
+.block-one-button{
+width: 219px;
+position: relative;
+}
+.circle{
+position: absolute;
+right: 5px;
+top: 20px;    
+width: 40px;
+height: 40px;
+border-radius: 100px;
+background-color:#335B6B;
+
+}
+.vector{
+background-image: url(../images/svg/vector.svg);
+background-repeat: no-repeat;
+background-size: auto;
+width: 40px;
+height: 40px;
+position: absolute;
+top: 13px;
+left: 12px;
+}
+
+.button{
+width: 219px;
+height: 82px;
+border: none;
+border-radius: 16px;
+color:var(--color-blue);
+background-color: var(--color-yellow);
+font-family:var(--font-family-Roboto);
+font-size: 19px;
+font-weight: 400;
+cursor: pointer;
+}
+.button:hover{
+background-color: var(--color-green);
+}
